@@ -1,0 +1,123 @@
+.post{
+    width: 100%;
+    
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    transition: transform 300ms;
+ 
+    margin-bottom: 1vh;
+    -webkit-box-shadow:  0px 4px 10px -3px rgba(102,85,235,0.42);
+    -moz-box-shadow:  0px 4px 10px -3px rgba(102,85,235,0.42);
+    box-shadow:  0px 4px 10px -3px rgba(102,85,235,0.42);
+
+}
+.post:hover{
+    /* transform: scale(1.001); */
+    background-color: #ffffff;
+  }
+  /* .pos:hover{
+    transform: scale(1.02);
+  } */
+
+  .posttop{
+    display: flex;
+    position: relative;
+    /* align-items: center; */
+    margin-top: 20px;
+    padding-top: 10px;
+    margin-left: 4px;
+
+}
+.postIcon{
+  width:100%;
+  display: flex;
+  justify-content: flex-start;
+}
+.postIcon > img{
+  width:100%;
+}
+.postimage{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+.postimage > img{
+  width:100%;
+}
+.postavatar{
+    margin-left: 10px;
+}
+
+.posttopInfo > h3{
+    font-size: medium;
+    margin-left: 10px;
+}
+
+.posttopInfo > p{
+    font-size: small;
+    color:gray;
+    margin-left: 10px;
+}
+
+.postbottom{
+  padding: 0px 17px;
+}
+
+
+.postoptions {
+    padding-top: 10px;
+   
+    display: flex;
+    justify-content: space-evenly;
+    font-size: medium;
+    color: gray;
+    cursor: pointer;
+    border-top: 1px solid lightgray;
+  }
+  
+  .postoption {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    flex: 1;
+  }
+  
+  .postoption > p {
+    margin-left: 10px;
+  }
+  
+  .postoption:hover {
+    background-color: #ffffff;
+    border-radius: 10px;
+  }
+
+  .pos {
+    width: 100%;
+    max-height: 55vh;
+    object-fit: contain;
+   padding-bottom: 20px;
+  
+    transition: transform 400ms;
+
+}
+.descriptiontext{
+    font-size: 0.9rem;
+    color: rgb(49, 49, 49);
+    overflow-wrap: anywhere;
+  word-break: break-word;
+
+}
+.svgicons {
+  /* transform: scale(); */
+  height: 60px;
+  width: 40px;
+  color:#637381;
+  margin-bottom: 11px;
+  margin-left: 13px;
+}
+.EventDate{
+  font-size: 0.67rem;
+  margin-left: 12px;
+  margin-top: 0px;
+}

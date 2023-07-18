@@ -1,0 +1,162 @@
+.feed{
+  align-content: center;
+ width: 100%;
+ padding: 9px;
+ /* padding-left: 19px; */
+
+ height: 88vh;
+ overflow-y: scroll;
+ overflow-x: hidden;
+   
+}
+.feedEvent{
+  align-content: center;
+  width: 44%;
+}
+@media only screen and (max-width: 1029px) {
+  .feedEvent{
+    align-content: center;
+    width: 96%;
+  }
+}
+.feedWrapper{
+  padding: 9px;
+  /* padding-left: 19px; */
+
+  height:100%;
+  width: 70%; 
+
+
+}
+.Img{
+  display: grid;
+  grid-template-columns: 12% 70% 15%;
+
+}
+
+  
+  
+.canvasImg{
+  border-radius: 11px!important;
+  min-width: 100%;
+  
+  min-height: 20vh;
+  max-height: 20vh;
+
+  transition: transform 300ms;
+  
+}
+.canvasImg:hover{
+  transform: scale(1.02);
+  background-color: #ffffff;
+}
+.mainFrame{
+  display: grid;
+
+  grid-template-columns: 12% 52% 19% 18%;
+
+}
+@media only screen and (max-width: 1308px) {
+  .Img{
+    display: grid;
+    grid-template-columns:0% 100% 0%;
+
+  }
+  .mainFrame{
+    display: grid;
+    grid-template-columns:0% 70% 30% 0%;
+  
+  }
+  .feed {
+    width: 100%;
+}
+}
+@media only screen and (max-width: 1029px) {
+  .mainFrame{
+    display: grid;
+    grid-template-columns:0 100% 0 0;
+  
+  }
+  .feed {
+    width: 100%;
+}
+}
+.rightNavParent{
+  /* min-width: 24vw; */
+  /* width: 33vw; */
+display: flex;
+justify-content: flex-end;
+margin-top: 1.3vh;
+margin-right: 12px;
+
+
+}
+.rightNav {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  max-height: 60vh;
+  max-width: 38%;
+  min-width: 95%;
+  height: 93vh;
+  width: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  scrollbar-width: none;
+  background-color: white;
+  border-radius: 12px;
+  transition: transform 300ms;
+  -webkit-box-shadow: 0px 10px 28px -5px rgba(102,85,235,0.42);
+  -moz-box-shadow: 0px 10px 28px -5px rgba(102,85,235,0.42);
+  box-shadow: 0px 10px 28px -5px rgba(102,85,235,0.42);
+}
+.rightNav::-webkit-scrollbar {
+  display: none;
+}
+
+.rightNav:hover{
+  transform: scale(1.02);
+
+}
+    /* @media only screen and (max-width: 800px) {
+      .rightNavParent {
+          display: none;
+      } 
+    } */
+    @media only screen and (max-width: 1029px) {
+      .rightNavParent {
+        display: none;
+    } 
+    }
+
+    .gallery {
+      display: flex;
+      width: 100%;
+      height: 300px;
+      
+    }
+    
+    .gallery img {
+      min-width: 0;
+      flex: 1 1 10px;
+      object-fit: cover;
+      opacity: 0.9;
+      transition: 0.5s;
+    }
+    
+    .gallery img:hover {
+      flex: 1 1 340px;
+      opacity: 1;
+    }
+    @media only screen and (max-width: 1029px) {
+      .gallery {
+        display: flex;
+        width: 100%;
+        height: 180px;
+      }
+      .gallery img:hover {
+        flex: 1 1 240px;
+        opacity: 1;
+      }
+    }

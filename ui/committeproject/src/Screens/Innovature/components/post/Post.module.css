@@ -1,0 +1,170 @@
+.post {
+  width: 100%;
+
+  border-radius: 6px;
+  background-color: rgb(255, 255, 255);
+  transition: transform 100ms;
+  margin-top: 6px;
+  -webkit-box-shadow: 0px 10px 28px -5px rgba(102, 85, 235, 0.42);
+  -moz-box-shadow: 0px 10px 28px -5px rgba(102, 85, 235, 0.42);
+  box-shadow: 0px 10px 28px -5px rgba(102, 85, 235, 0.42);
+
+}
+
+.post:hover {
+  transform: scale(1.002, 1);
+  background-color: #ffffff;
+}
+
+
+
+.posttop {
+  display: flex;
+  position: relative;
+  /* align-items: center; */
+  margin-top: 20px;
+  height: 53%;
+}
+
+.readButton {
+  /* user-select:none; */
+  /* -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none; */
+  /* cursor:pointer; */
+  border: none;
+  padding: 0px;
+  margin-left: 20px;
+  font-size: 0.8rem;
+  background: white;
+  color: rgb(6, 6, 6);
+  /* font-family:cursive; */
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.posttopParent {
+  display: grid;
+  grid-template-columns: 87% 10%;
+  max-height: 79px;
+}
+
+.deletePost {
+  display: flex;
+  padding: 30% 60% 60% 0;
+
+}
+
+.postimage>img {
+  width: 100%;
+  padding-bottom: 20px;
+
+}
+
+.postavatar {
+  margin-left: 20px;
+}
+
+.posttopInfo>h3 {
+  font-size: medium;
+  margin-left: 10px;
+}
+
+.posttopInfo>p {
+  font-size: small;
+  color: gray;
+  margin-left: 13px;
+  margin-top: -5px;
+}
+
+.postbottom {
+  margin-top: 8px;
+  /* margin-bottom: 10px; */
+  /* padding: 15px 25px; */
+}
+
+.postoptions {
+  padding-top: 5px;
+  border-top: 1px solid lightgray;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: medium;
+  color: gray;
+  
+  
+}
+
+.postoption {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  flex: 1;
+}
+
+.postoption>p {
+  margin-left: 10px;
+}
+
+.postoption:hover {
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.topComments {
+  margin-bottom: 5px;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+
+  min-height: 4px;
+  min-width: 20px;
+  padding-bottom: 12px;
+}
+
+.pos {
+  width: 100%;
+  max-height: 55vh;
+  object-fit: contain;
+  transition: transform 400ms;
+
+}
+
+.descriptiontext {
+  font-size: 0.9rem;
+  color: rgb(49, 49, 49);
+  padding-inline: 12px;
+  overflow-wrap: anywhere;
+  /* -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; */
+  /* cursor: not-allowed; */
+  /* white-space: pre-wrap */
+  word-break: break-word;
+
+}
+
+.likeButton {
+  font-size: 13px;
+
+}
+
+.Date {
+  font-size: 0.67rem;
+  margin-left: 12px;
+  margin-top: -0px;
+}
+
+.seeMore {
+  color: var(--bs-link-color);
+  cursor: pointer;
+  margin-left: 12px;
+  margin-top: 1px;
+  font-weight: 600;
+  font-style: italic;
+}
+.headText{
+  font-size: 25px;
+  font-weight: bold;
+
+}

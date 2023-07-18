@@ -1,0 +1,278 @@
+.messageSenderPost {
+  display: flex;
+
+  flex-direction: column;
+  background-color: white;
+  transform: 0.8s;
+  border-radius: 8px;
+  /* box-shadow: 0px 5px 7px -7px rgba(0,0,0,0.75); */
+  border: 1px;
+  margin-top: 12px;
+}
+/* .messageSender:hover{
+  transform: scale(1.003);
+} */
+
+.messageSenderC {
+  display: flex;
+
+  flex-direction: column;
+  background-color: white;
+  transform: 0.8s;
+  border-radius: 8px;
+  /* box-shadow: 0px 5px 7px -7px rgba(0,0,0,0.75); */
+  border: 1px;
+  width: 100%;
+
+  margin-top: 16vh;
+}
+
+.messageSender_top {
+  display: flex;
+  /* border-bottom: 1px solid #eff2f5; */
+  padding: 15px;
+  height: 294px;
+}
+.messageSender_top100px{
+  display: flex;
+  /* border-bottom: 1px solid #eff2f5; */
+  padding: 15px;
+  height: 75px;
+}
+.messageSender_top > form {
+  flex: 1;
+  display: flex;
+}
+
+
+/* .messageSender_top > form > button{
+    display: none;
+} */
+
+.messageSender_input {
+  /* flex:1; */
+  width: 90%;
+  /* display: flex;
+    flex-direction: column; */
+}
+
+.messageSender_bottom {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.messageSender_bottom_committee {
+  display: flex;
+  justify-content: space-evenly;
+}
+.messageSender_option {
+  width: 16%;
+  /* padding: 20px; */
+  /* display: flex; */
+  align-items: right;
+  color: gray;
+  margin: 5px;
+  display: grid;
+  place-content: center;
+}
+.messageSender_option_img {
+  width: 30%;
+  /* padding: 20px; */
+  /* display: flex; */
+  align-items: left;
+  color: gray;
+  margin: 5px;
+}
+
+.messageSender_option > h3 {
+  font-size: medium;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+/* upload */
+
+.upload-btn-wrapper:hover{
+  transform: scale(1.02);
+}
+.upload-btn-wrapperA:hover{
+  transform: scale(1.02);
+  background-color: #817a7a1e;
+  border-radius: 50vh;
+}
+
+.upload-btn-wrapper{
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  transition: transform 500ms;
+  margin-top: 4px;
+}
+
+.btn {
+  width: 30px;
+}
+
+.upload-btn-wrapper input[type="file"] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+.input-btn {
+  width: 30px;
+  height: 30px;
+}
+.upload-btn-wrapperA {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  transition: transform 0.5s;
+  margin-top: 11px;
+  padding-left: 7px;
+}
+
+
+
+.upload-btn-wrapperA input[type="file"] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+.preview {
+  width: 140%;
+  height: 100%;
+  margin-left: 110%;
+}
+/* close */
+@media only screen and (max-width: 900px) {
+  .messageSender {
+    width: 100%;
+  }
+}
+
+.submit-button {
+  animation: bounceInUp 0.5s;
+  height: fit-content!important;
+  padding-top: 8px!important;
+}
+.image-button{
+  margin-inline: 5px;
+}
+.x-button {
+  margin-left: 200px;
+  margin-top: -14px;
+}
+
+@keyframes bounceInUp {
+  from,
+  60%,
+  75%,
+  90%,
+  to {
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 2000px, 0);
+  }
+
+  60% {
+    opacity: 1;
+    transform: translate3d(0, -30px, 0);
+  }
+
+  75% {
+    transform: translate3d(0, 10px, 0);
+  }
+
+  90% {
+    transform: translate3d(0, -5px, 0);
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+.closeContainer {
+  width: 80%;
+  /*border-radius: 25px;*/
+  border: 2px solid Black;
+  padding: 15px 15px 15px 15px;
+  margin: 20px 20px 20px 20px;
+  background: #a4d3ee;
+  overflow: visible;
+  box-shadow: 5px 5px 2px #888888;
+  position: relative;
+}
+.inputUdo{
+ width: 88%;
+ margin-top: -7px;
+}
+.inputUdoCk{
+  width: 99%;
+ 
+ }
+.react-emoji-picker{
+  margin-top: 20px!important;
+}
+
+
+.react-input-emoji--input {
+  overflow-wrap: anywhere!important;
+  margin-right: 5px !important;
+
+}
+
+
+
+  .react-emoji {
+  
+    align-items: start!important;
+   
+   
+  }
+
+  .react-input-emoji--button svg {
+  
+    margin-top: 16px!important;
+  }
+
+  
+  .rdw-editor-main {
+    height: 71% !important;
+    box-sizing: border-box;
+    overflow-y: scroll !important;
+  }
+  .rdw-editor-wrapper {
+    box-sizing: content-box;
+    width: 85%;
+    margin-left: 5px;
+    margin-right: 6px;
+  }
+
+  .rdw-suggestion-dropdown {
+   
+    /* z-index: 10000 !important;
+    bottom: 0px !important; */
+    max-height: 171px !important;
+    margin-bottom: 20px !important;
+  }
+  .public-DraftStyleDefault-ltr {
+
+    overflow-wrap: anywhere !important;
+  word-break: break-word !important;
+
+  }
+  .imagesUnderImage{
+    max-height: 200px;
+  }
+  .clearfix {
+      clear: both;
+  }

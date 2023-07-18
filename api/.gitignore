@@ -1,0 +1,9 @@
+/node_modules
+/images
+
+
+#kelbin jacob seen
+/coverage
+/test-report.xml
+
+*.log

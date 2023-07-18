@@ -1,0 +1,74 @@
+.headingText {
+    font-size: 14px;
+    margin-left: 17px;
+
+    font-weight: bold;
+
+}
+
+.wrapper {
+    width: 5px;
+}
+
+.imageLogoBirthday {
+    margin-top: 93px;
+    margin-bottom: 176px;
+    margin-left: 25px;
+}
+
+.scrollList {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    max-height: 80vh;
+    margin-top: 24px;
+
+}
+
+.button {
+    height: 26px;
+    width: fit-content;
+}
+
+.button:hover {
+    transition: .6s;
+    background-color: #2065D1;
+    color: #ffffff;
+}
+
+.xButton {
+    margin-left: 100%;
+}
+
+.modal {
+    background-color: rgb(255, 255, 255);
+    width: 30%;
+    height: fit-content;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    border-radius: 5px;
+}
+
+.modal h3 {
+    font-size: 1.3rem;
+    line-height: 1.1;
+    letter-spacing: -0.004em;
+    font-weight: 600;
+    padding: 2vw;
+    justify-content: center;
+}
+
+.modal h3 svg {
+    float: right;
+}
+
+@media only screen and (max-width: 599px) {
+
+    .modal {
+        width: 100%;
+        top: 0%;
+        left: 0;
+        height: 100%;
+    }
+
+}

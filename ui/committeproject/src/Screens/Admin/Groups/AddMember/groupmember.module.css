@@ -1,0 +1,177 @@
+.btn_addgroupmember {
+    background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA 51%, #77A1D3 100%);
+    width: 150px;
+    padding-left: 28px;
+    padding-right: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+
+}
+
+.btn_addgroupmember:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+.btn_changecaptain {
+    background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA 51%, #77A1D3 100%);
+    width: 150px;
+    padding-left: 28px;
+    padding-right: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+}
+
+.btn_changecaptain:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.groupMemberLoading {
+    margin-left: 0%;
+    margin-top: 10%;
+    margin-bottom: 15%;
+    display: inline-block;
+    animation-name: fade-in;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-iteration-count: 5;
+
+}
+
+.groupmembercard {
+    width: 100%;
+
+    background-color: rgb(255, 255, 255);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 34px;
+    -webkit-box-shadow: 0px 0px 11px -3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 11px -3px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 11px -3px rgba(0, 0, 0, 0.75);
+}
+
+.groupmemdeleteIcon:hover {
+    animation: deleteIcon-animation .1s ease-in-out infinite;
+}
+
+@keyframes deleteIcon-animation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(10deg);
+    }
+}
+/* sx={{ m: 2, width: "26%", height: 35, marginLeft: "74%" }} */
+
+.submitgroupmemberbutton {
+    background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA 51%, #77A1D3 100%);
+    width: 26%;
+    margin-left: 74%;
+    margin-top: 20px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border-color: white;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.submitgroupmemberbutton:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+.addgroupmembercloseIcon {
+    color: rgb(0, 0, 0)
+}
+
+
+.addgroupmembercloseIcon:hover {
+    animation: closeIcon 0.7s infinite;
+}
+
+@keyframes closeIcon {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+.eventhistorycloseIcon {
+    color: rgb(0, 0, 0)
+}
+
+
+.eventhistorycloseIcon:hover {
+    animation: closeIcon 0.7s infinite;
+}
+.forBlock{
+    display: initial!important;
+    margin-top: -7px;
+}
+.forBlock:hover {
+    animation: crownIcon 0.7s infinite;
+}
+
+@keyframes crownIcon {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+.searchCard {
+    width: 100%;    
+    background-color: rgb(255, 255, 255);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    -webkit-box-shadow: 0px 0px 11px -3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 11px -3px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 11px -3px rgba(0, 0, 0, 0.75);
+}

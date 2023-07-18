@@ -1,0 +1,54 @@
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.HistoryPageLoding {
+    margin-left: 35%;
+    margin-top: 10%;
+    margin-bottom: 15%;
+    display: inline-block;
+    animation-name: fade-in;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-iteration-count: 5;
+}
+
+.historycard {
+    width: 100%;
+
+    background-color: rgb(255, 255, 255);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 34px;
+    -webkit-box-shadow: 0px 0px 11px -3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 11px -3px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 11px -3px rgba(0, 0, 0, 0.75);
+}
+
+.fileIcon {
+    color: maroon
+}
+.fileIcon:hover {
+    animation: fileIcon 0.7s infinite;
+}
+
+@keyframes fileIcon {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}

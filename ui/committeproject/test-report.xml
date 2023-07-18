@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="/home/alans.thomas/Commitee-Website/Develop_phase3-Committee-website/committee-website/ui/committeproject/src/Screens/Admin/Groups/AddMember/__tests__/GroupMember.test.js">
+    <testCase name="Admin GroupMember render GroupMember" duration="885"/>
+    <testCase name="Admin GroupMember Open search" duration="298"/>
+    <testCase name="Admin GroupMember search name" duration="222"/>
+    <testCase name="Admin GroupMember search Email" duration="378"/>
+    <testCase name="Admin GroupMember delete-user" duration="190"/>
+    <testCase name="Admin GroupMember manage role" duration="353"/>
+    <testCase name="Admin GroupMember manage role submit" duration="189"/>
+    <testCase name="Admin GroupMember add group member" duration="154"/>
+    <testCase name="Admin GroupMember add group member submit" duration="142"/>
+  </file>
+  <file path="/home/alans.thomas/Commitee-Website/Develop_phase3-Committee-website/committee-website/ui/committeproject/src/Screens/Innovature/components/feed/_tests_/Feed.test.js">
+    <testCase name="Admin AdminFeed render AdminFeed" duration="1001"/>
+  </file>
+  <file path="/home/alans.thomas/Commitee-Website/Develop_phase3-Committee-website/committee-website/ui/committeproject/src/Screens/Admin/Groups/Group/__tests__/Group.test.js">
+    <testCase name="Admin Groups render Groups" duration="500"/>
+    <testCase name="Admin Groups GroupsImgeEditModal" duration="347"/>
+    <testCase name="Admin Groups GroupsImgeEditModal error" duration="131"/>
+    <testCase name="Admin Groups GroupsImgeEditModal" duration="79"/>
+    <testCase name="Admin Groups GroupsEditNameModal" duration="109"/>
+    <testCase name="Admin Groups GroupsEditNameModal change" duration="114"/>
+    <testCase name="Admin Groups GroupsEditNameModal changeError" duration="178"/>
+    <testCase name="Admin Groups newGrpModal" duration="71"/>
+    <testCase name="Admin Groups newGrpModal" duration="92"/>
+    <testCase name="Admin Groups newGrpModal nameChange" duration="197"/>
+    <testCase name="Admin Groups newGrpModal profileChange" duration="158"/>
+    <testCase name="Admin Groups newGrpModal submit" duration="131"/>
+    <testCase name="Admin Groups newGrp" duration="72"/>
+    <testCase name="Admin Groups GroupsImgeEditModalChange" duration="136"/>
+    <testCase name="Admin Groups render GroupsDelete" duration="30"/>
+  </file>
+  <file path="/home/alans.thomas/Commitee-Website/Develop_phase3-Committee-website/committee-website/ui/committeproject/src/Screens/Admin/DashBoard/SideNav/__tests__/sideNav.test.js">
+    <testCase name="Admin SideNav render AdminSideNav" duration="86"/>
+  </file>
+  <file path="/home/alans.thomas/Commitee-Website/Develop_phase3-Committee-website/committee-website/ui/committeproject/src/Screens/Admin/DashBoard/NavBar/__tests__/navbar.test.js">
+    <testCase name="Admin Navbar render AdminNavbar" duration="90"/>
+  </file>
+  <file path="/home/alans.thomas/Commitee-Website/Develop_phase3-Committee-website/committee-website/ui/committeproject/src/Screens/Innovature/components/poll/_tests_/polls.test.js">
+    <testCase name="Admin AdminFeed render AdminFeed" duration="40"/>
+  </file>
+  <file path="/home/alans.thomas/Commitee-Website/Develop_phase3-Committee-website/committee-website/ui/committeproject/src/Screens/Innovature/components/ListPoll/_tests_/ViewPoll.test.js">
+    <testCase name="Admin AdminFeed render AdminFeed" duration="43"/>
+  </file>
+  <file path="/home/alans.thomas/Commitee-Website/Develop_phase3-Committee-website/committee-website/ui/committeproject/src/Screens/Admin/Adminusers/__tests__/employee.test.js">
+    <testCase name="Admin Employee render AdminEmployee" duration="942"/>
+    <testCase name="Admin Employee Search close button" duration="382"/>
+    <testCase name="Admin Employee textFiled search name" duration="333"/>
+    <testCase name="Admin Employee search employee email" duration="207"/>
+    <testCase name="Admin Employee search employee Designation" duration="317"/>
+    <testCase name="Admin Employee search employee type" duration="262"/>
+    <testCase name="Admin Employee search employee startDate" duration="200"/>
+    <testCase name="Admin Employee search employee endDate" duration="256"/>
+    <testCase name="Admin Employee csv modal open" duration="293"/>
+    <testCase name="Admin Employee csv upload" duration="198"/>
+    <testCase name="Admin Employee CSV add Employee" duration="381"/>
+    <testCase name="Admin Employee add employee csv" duration="150"/>
+    <testCase name="Admin Employee CSVErrorOne" duration="147"/>
+    <testCase name="Admin Employee csvUploadError" duration="221"/>
+    <testCase name="Admin Employee Delete user" duration="156"/>
+    <testCase name="Admin Employee Change password" duration="261"/>
+    <testCase name="Admin Employee Change pass greater" duration="203"/>
+    <testCase name="Admin Employee Change pass less" duration="196"/>
+    <testCase name="Admin Employee Change pass null" duration="218"/>
+    <testCase name="Admin Employee Change pass space" duration="179"/>
+    <testCase name="Admin Employee Confirm pass" duration="218"/>
+    <testCase name="Admin Employee Confirm pass null" duration="197"/>
+    <testCase name="Admin Employee Cahnge Pass error" duration="238"/>
+    <testCase name="Admin Employee Cahnge Pass error two" duration="214"/>
+    <testCase name="Admin Employee Cahnge Pass error three" duration="178"/>
+    <testCase name="Admin Employee Add user modal open" duration="334"/>
+    <testCase name="Admin Employee Add user name maxLength" duration="232"/>
+    <testCase name="Admin Employee Add user name null" duration="270"/>
+    <testCase name="Admin Employee Add user Email" duration="247"/>
+    <testCase name="Admin Employee Add user Email null" duration="269"/>
+    <testCase name="Admin Employee Add user Email Greater" duration="240"/>
+    <testCase name="Admin Employee Add user wrong email" duration="190"/>
+    <testCase name="Admin Employee Add user DOB" duration="219"/>
+    <testCase name="Admin Employee Add user Designation" duration="171"/>
+    <testCase name="Admin Employee Add user submit" duration="323"/>
+    <testCase name="Admin Employee Add user invalid submit" duration="213"/>
+    <testCase name="Admin Employee Add user modal close" duration="281"/>
+  </file>
+  <file path="/home/alans.thomas/Commitee-Website/Develop_phase3-Committee-website/committee-website/ui/committeproject/src/Screens/Admin/admincommittee/__tests__/admincommittee.test.js">
+    <testCase name="Admin Committee render AdminCommittee" duration="627"/>
+    <testCase name="Admin Committee Search close button" duration="340"/>
+    <testCase name="Admin Committee Add new member" duration="179"/>
+    <testCase name="Admin Committee textFiled search name" duration="221"/>
+    <testCase name="Admin Committee textFiled search email" duration="241"/>
+    <testCase name="Admin Committee textFiled search startDate" duration="216"/>
+    <testCase name="Admin Committee textFiled search endDate" duration="216"/>
+    <testCase name="Admin Committee textFiled search Designation" duration="262"/>
+    <testCase name="Admin Committee textFiled search Designation" duration="222"/>
+    <testCase name="Admin Committee Search clear data" duration="254"/>
+    <testCase name="Admin Committee Delete Committee member" duration="178"/>
+    <testCase name="Admin Committee add Committee member modal close" duration="110"/>
+    <testCase name="Admin Committee add Committee member submit" duration="104"/>
+    <testCase name="Admin Committee Update search value" duration="83"/>
+  </file>
+  <file path="/home/alans.thomas/Commitee-Website/Develop_phase3-Committee-website/committee-website/ui/committeproject/src/Screens/Admin/DashBoard/Header/__tests__/NotificationPopover.test.js">
+    <testCase name="NotificationPopover render NotificationPopover" duration="178"/>
+    <testCase name="NotificationPopover render NotificationPopover unread" duration="41"/>
+    <testCase name="NotificationPopover render NotificationPopover commitee" duration="47"/>
+    <testCase name="NotificationPopover render NotificationPopover typ2" duration="44"/>
+    <testCase name="NotificationPopover render NotificationPopover  br2" duration="33"/>
+    <testCase name="NotificationPopover render NotificationPopover err" duration="32"/>
+    <testCase name="NotificationPopover render MarkAs read" duration="438"/>
+    <testCase name="NotificationPopover Branch render NotificationPopover posted" duration="31"/>
+  </file>
+  <file path="/home/alans.thomas/Commitee-Website/Develop_phase3-Committee-website/committee-website/ui/committeproject/src/Screens/Admin/AllEvents/__tests__/EventHistory.test.js">
+    <testCase name="Admin EventHistory render EventHistory" duration="327"/>
+    <testCase name="Admin EventHistoryModal render EventHistoryModalOpen" duration="691"/>
+    <testCase name="Admin EventHistoryPointPublish render EventHistoryPointPublish" duration="174"/>
+    <testCase name="Admin EventHistoryModalclose render EventHistoryModalclose" duration="117"/>
+  </file>
+  <file path="/home/alans.thomas/Commitee-Website/Develop_phase3-Committee-website/committee-website/ui/committeproject/src/Screens/Admin/ReportedPost/__tests__/ReportedPost.test.js">
+    <testCase name="Admin ReportedPost render ReportedPost" duration="857"/>
+    <testCase name="Admin ReportedPost render ReportedPost commmitee" duration="49"/>
+    <testCase name="Admin ReportedPost render ReportedPos redir" duration="31"/>
+    <testCase name="Admin ReportedPost clicks on read more buttons" duration="27"/>
+    <testCase name="Admin ReportedPost render ReportedPost" duration="26"/>
+  </file>
+  <file path="/home/alans.thomas/Commitee-Website/Develop_phase3-Committee-website/committee-website/ui/committeproject/src/Screens/Innovature/components/PstSender/_tests_/MessageSender.test.js">
+    <testCase name="Admin AdminFeed render AdminFeed" duration="913"/>
+  </file>
+  <file path="/home/alans.thomas/Commitee-Website/Develop_phase3-Committee-website/committee-website/ui/committeproject/src/Screens/committe/TagedUsersProfile/_tests_/TagedUserProfile.test.js">
+    <testCase name="Admin AdminFeed render AdminFeed" duration="590"/>
+  </file>
+  <file path="/home/alans.thomas/Commitee-Website/Develop_phase3-Committee-website/committee-website/ui/committeproject/src/Screens/committe/EventList/_tests_/EventList.test.js">
+    <testCase name="Admin AdminFeed render AdminFeed" duration="161"/>
+  </file>
+  <file path="/home/alans.thomas/Commitee-Website/Develop_phase3-Committee-website/committee-website/ui/committeproject/src/Screens/committe/Event/_tests_/Event.test.js">
+    <testCase name="Admin AdminFeed render AdminFeed" duration="108"/>
+  </file>
+  <file path="/home/alans.thomas/Commitee-Website/Develop_phase3-Committee-website/committee-website/ui/committeproject/src/Screens/committe/BirthDays/_tests_/BirthDays.test.js">
+    <testCase name="Admin AdminFeed render AdminFeed" duration="495"/>
+  </file>
+  <file path="/home/alans.thomas/Commitee-Website/Develop_phase3-Committee-website/committee-website/ui/committeproject/src/Screens/Admin/AllEvents/__tests__/EventMain.test.js">
+    <testCase name="Admin EventMain render EventMain" duration="717"/>
+  </file>
+  <file path="/home/alans.thomas/Commitee-Website/Develop_phase3-Committee-website/committee-website/ui/committeproject/src/Screens/committe/PollList/_tests_/PollList.test.js">
+    <testCase name="Admin AdminFeed render AdminFeed" duration="111"/>
+  </file>
+  <file path="/home/alans.thomas/Commitee-Website/Develop_phase3-Committee-website/committee-website/ui/committeproject/src/Screens/committe/GameList/_tests_/ListGames.test.js">
+    <testCase name="Admin AdminFeed render AdminFeed" duration="370"/>
+  </file>
+  <file path="/home/alans.thomas/Commitee-Website/Develop_phase3-Committee-website/committee-website/ui/committeproject/src/Screens/committe/Home/feed/_tests_/Feed.test.js">
+    <testCase name="Admin AdminFeed render AdminFeed" duration="907"/>
+  </file>
+  <file path="/home/alans.thomas/Commitee-Website/Develop_phase3-Committee-website/committee-website/ui/committeproject/src/Screens/Admin/Adminfeed/_tests_/Adminpost.test.js">
+    <testCase name="AdminFeed renders without crashing" duration="788"/>
+    <testCase name="AdminFeed clicks on delete buttons" duration="208"/>
+    <testCase name="AdminFeed clicks on delete buttons" duration="105"/>
+  </file>
+  <file path="/home/alans.thomas/Commitee-Website/Develop_phase3-Committee-website/committee-website/ui/committeproject/src/Screens/committe/Dashboard/Navbar/_tests_/Navbar.test.js">
+    <testCase name="Admin AdminFeed render AdminFeed" duration="440"/>
+  </file>
+  <file path="/home/alans.thomas/Commitee-Website/Develop_phase3-Committee-website/committee-website/ui/committeproject/src/Screens/Innovature/components/InnoPointTable/_tests_/pointTableGroups.test.js">
+    <testCase name="Admin AdminFeed render AdminFeed" duration="389"/>
+  </file>
+  <file path="/home/alans.thomas/Commitee-Website/Develop_phase3-Committee-website/committee-website/ui/committeproject/src/Screens/Innovature/components/InnoPointTable/_tests_/EventWiseWinner.test.js">
+    <testCase name="Admin AdminFeed render AdminFeed" duration="631"/>
+  </file>
+  <file path="/home/alans.thomas/Commitee-Website/Develop_phase3-Committee-website/committee-website/ui/committeproject/src/Screens/Admin/Adminfeed/_tests_/ViewpostAdmin.test.js">
+    <testCase name="viewPost renders a single post short discription" duration="583"/>
+    <testCase name="viewPost renders a single post long discription" duration="66"/>
+  </file>
+  <file path="/home/alans.thomas/Commitee-Website/Develop_phase3-Committee-website/committee-website/ui/committeproject/src/Screens/Innovature/components/InnoPointTable/_tests_/GameWiseWinners.test.js">
+    <testCase name="Admin AdminFeed render AdminFeed" duration="745"/>
+  </file>
+  <file path="/home/alans.thomas/Commitee-Website/Develop_phase3-Committee-website/committee-website/ui/committeproject/src/Screens/Admin/TagedUserProfiles/__tests__/ProfileTaged.test.js">
+    <testCase name="Admin ProfileTaged render ProfileTaged" duration="468"/>
+    <testCase name="Admin ProfileTaged render ProfileTaged" duration="0"/>
+  </file>
+  <file path="/home/alans.thomas/Commitee-Website/Develop_phase3-Committee-website/committee-website/ui/committeproject/src/Screens/committe/Poll/_tests_/Polls.test.js">
+    <testCase name="Admin AdminFeed render AdminFeed" duration="132"/>
+  </file>
+  <file path="/home/alans.thomas/Commitee-Website/Develop_phase3-Committee-website/committee-website/ui/committeproject/src/Screens/Admin/Points/__tests__/GroupPoint.test.js">
+    <testCase name="Admin Grouppoints render Grouppoints" duration="78"/>
+    <testCase name="Admin Grouppoints revert render Grouppoints revert" duration="597"/>
+    <testCase name="Admin Grouppoints publish render Grouppoints publish" duration="48"/>
+  </file>
+  <file path="/home/alans.thomas/Commitee-Website/Develop_phase3-Committee-website/committee-website/ui/committeproject/src/Screens/committe/Game/_tests_/Games.test.js">
+    <testCase name="Admin AdminFeed render AdminFeed" duration="96"/>
+  </file>
+  <file path="/home/alans.thomas/Commitee-Website/Develop_phase3-Committee-website/committee-website/ui/committeproject/src/Screens/Admin/EventWisePoint/__tests__/EventWisePoint.test.js">
+    <testCase name="Admin EventWisePoint render EventWisePoint" duration="555"/>
+    <testCase name="Admin EventWisePointModal render EventWisePoint" duration="381"/>
+    <testCase name="Admin EventWisePointModalclose render EventWisePointModalclose" duration="135"/>
+  </file>
+  <file path="/home/alans.thomas/Commitee-Website/Develop_phase3-Committee-website/committee-website/ui/committeproject/src/Screens/Admin/Adminfeed/_tests_/AdminFeed.test.js">
+    <testCase name="Admin AdminFeed render AdminFeed" duration="36"/>
+  </file>
+  <file path="/home/alans.thomas/Commitee-Website/Develop_phase3-Committee-website/committee-website/ui/committeproject/src/Screens/Innovature/components/NotificationPost/_tests_/Members.test.js">
+    <testCase name="Admin AdminFeed render AdminFeed" duration="746"/>
+  </file>
+  <file path="/home/alans.thomas/Commitee-Website/Develop_phase3-Committee-website/committee-website/ui/committeproject/src/Screens/Innovature/components/InnoPointTable/_tests_/pointTableLive.test.js">
+    <testCase name="Admin AdminFeed render AdminFeed" duration="489"/>
+  </file>
+  <file path="/home/alans.thomas/Commitee-Website/Develop_phase3-Committee-website/committee-website/ui/committeproject/src/Screens/Admin/Points/__tests__/Pointlist.test.js">
+    <testCase name="Admin PointsListPage render PointsListPage" duration="1749"/>
+  </file>
+  <file path="/home/alans.thomas/Commitee-Website/Develop_phase3-Committee-website/committee-website/ui/committeproject/src/Screens/Admin/AdminPost/__tests__/AdminPost.test.js">
+    <testCase name="Admin AdminPostTag render AdminPostTag" duration="590"/>
+  </file>
+  <file path="/home/alans.thomas/Commitee-Website/Develop_phase3-Committee-website/committee-website/ui/committeproject/src/Screens/Admin/AllEvents/__tests__/currentEvents.test.js">
+    <testCase name="Admin CurrentEvents render CurrentEvents" duration="1575"/>
+  </file>
+  <file path="/home/alans.thomas/Commitee-Website/Develop_phase3-Committee-website/committee-website/ui/committeproject/src/Screens/committe/Dashboard/Headers/_tests_/NotificationsPopover.test.js">
+    <testCase name="Admin AdminFeed render AdminFeed" duration="72"/>
+  </file>
+  <file path="/home/alans.thomas/Commitee-Website/Develop_phase3-Committee-website/committee-website/ui/committeproject/src/Screens/committe/Ponit/EventPoint/_tests_/ListPoint.test.js">
+    <testCase name="Admin AdminFeed render AdminFeed" duration="190"/>
+  </file>
+  <file path="/home/alans.thomas/Commitee-Website/Develop_phase3-Committee-website/committee-website/ui/committeproject/src/Screens/Admin/AllEvents/__tests__/AllEvents.test.js">
+    <testCase name="Admin AllEvents render AllEvents" duration="788"/>
+  </file>
+  <file path="/home/alans.thomas/Commitee-Website/Develop_phase3-Committee-website/committee-website/ui/committeproject/src/Layouts/InnovatureLayout/__tests__/AccountPopover.test.js">
+    <testCase name="Admin AccountPopover render AccountPopover" duration="778"/>
+    <testCase name="Admin AccountPopover render AccountPopover null" duration="49"/>
+  </file>
+  <file path="/home/alans.thomas/Commitee-Website/Develop_phase3-Committee-website/committee-website/ui/committeproject/src/Screens/Admin/adminhomepage/_tests_/DashboardAppPage.test.js">
+    <testCase name="DashboardAppPage renders loading image when datas is empty" duration="261"/>
+  </file>
+  <file path="/home/alans.thomas/Commitee-Website/Develop_phase3-Committee-website/committee-website/ui/committeproject/src/Screens/committe/Dashboard/Headers/_tests_/AccountPopover.test.js">
+    <testCase name="Admin AdminFeed render AdminFeed" duration="84"/>
+  </file>
+  <file path="/home/alans.thomas/Commitee-Website/Develop_phase3-Committee-website/committee-website/ui/committeproject/src/Screens/Admin/AllEvents/__tests__/EventTable.test.js">
+    <testCase name="Admin EventTable render EventTable" duration="206"/>
+  </file>
+  <file path="/home/alans.thomas/Commitee-Website/Develop_phase3-Committee-website/committee-website/ui/committeproject/src/Screens/Admin/DashBoard/Header/__tests__/AccountPopover.test.js">
+    <testCase name="Admin AccountPopover render AccountPopover" duration="768"/>
+  </file>
+  <file path="/home/alans.thomas/Commitee-Website/Develop_phase3-Committee-website/committee-website/ui/committeproject/src/Screens/Admin/AllEvents/__tests__/History.test.js">
+    <testCase name="Admin History render History" duration="57"/>
+    <testCase name="Admin History render History" duration="700"/>
+  </file>
+  <file path="/home/alans.thomas/Commitee-Website/Develop_phase3-Committee-website/committee-website/ui/committeproject/src/Screens/Innovature/components/InnoPointTable/_tests_/AllEvents.test.js">
+    <testCase name="Admin AdminFeed render AdminFeed" duration="55"/>
+  </file>
+  <file path="/home/alans.thomas/Commitee-Website/Develop_phase3-Committee-website/committee-website/ui/committeproject/src/Screens/Admin/DashBoard/Header/__tests__/Header.test.js">
+    <testCase name="Admin Header render Admin Header" duration="151"/>
+  </file>
+  <file path="/home/alans.thomas/Commitee-Website/Develop_phase3-Committee-website/committee-website/ui/committeproject/src/Screens/Admin/Points/__tests__/reported.test.js">
+    <testCase name="Admin Reported render Reported" duration="93"/>
+  </file>
+  <file path="/home/alans.thomas/Commitee-Website/Develop_phase3-Committee-website/committee-website/ui/committeproject/src/Screens/Innovature/components/InnoPointTable/_tests_/AllEventWithGame.test.js">
+    <testCase name="Admin AdminFeed render AdminFeed" duration="90"/>
+  </file>
+  <file path="/home/alans.thomas/Commitee-Website/Develop_phase3-Committee-website/committee-website/ui/committeproject/src/Screens/Admin/Points/__tests__/commonTable.test.js">
+    <testCase name="Admin CommonTable render EventTable" duration="55"/>
+  </file>
+  <file path="/home/alans.thomas/Commitee-Website/Develop_phase3-Committee-website/committee-website/ui/committeproject/src/Screens/Admin/Points/__tests__/pendinglist.test.js">
+    <testCase name="Admin Pendinglist render Pendinglist" duration="102"/>
+  </file>
+  <file path="/home/alans.thomas/Commitee-Website/Develop_phase3-Committee-website/committee-website/ui/committeproject/src/Screens/committe/Ponit/_tests_/MainPoint.test.js">
+    <testCase name="Admin AdminFeed render AdminFeed" duration="276"/>
+  </file>
+  <file path="/home/alans.thomas/Commitee-Website/Develop_phase3-Committee-website/committee-website/ui/committeproject/src/Screens/committe/Dashboard/Headers/_tests_/Headers.test.js">
+    <testCase name="Admin AdminFeed render AdminFeed" duration="138"/>
+  </file>
+  <file path="/home/alans.thomas/Commitee-Website/Develop_phase3-Committee-website/committee-website/ui/committeproject/src/Screens/Admin/__tests__/Page404.test.js">
+    <testCase name="404 page render 404 page" duration="142"/>
+    <testCase name="404 page render 404 page" duration="26"/>
+    <testCase name="404 page render 404 page" duration="22"/>
+  </file>
+  <file path="/home/alans.thomas/Commitee-Website/Develop_phase3-Committee-website/committee-website/ui/committeproject/src/Screens/Innovature/components/SharedPage/_tests_/Dates.test.js">
+    <testCase name="Dates renders the formatted date as &quot;Yesterday&quot; when the createdAt date is yesterday" duration="38"/>
+    <testCase name="Dates renders the formatted date as &quot;just now&quot; when the createdAt date is the current moment" duration="4"/>
+  </file>
+  <file path="/home/alans.thomas/Commitee-Website/Develop_phase3-Committee-website/committee-website/ui/committeproject/src/Screens/Innovature/components/Members/_tests_/Members.test.js">
+    <testCase name="Admin AdminFeed render AdminFeed" duration="39"/>
+  </file>
+  <file path="/home/alans.thomas/Commitee-Website/Develop_phase3-Committee-website/committee-website/ui/committeproject/src/Screens/committe/Dashboard/Sidenav/_tests_/SideNavBar.test.js">
+    <testCase name="Admin AdminFeed render AdminFeed" duration="464"/>
+  </file>
+  <file path="/home/alans.thomas/Commitee-Website/Develop_phase3-Committee-website/committee-website/ui/committeproject/src/Screens/Admin/DashBoard/Footer/__tests__/Footer.test.js">
+    <testCase name="Admin Footer render Admin Footer" duration="23"/>
+  </file>
+  <file path="/home/alans.thomas/Commitee-Website/Develop_phase3-Committee-website/committee-website/ui/committeproject/src/TosterGlobal/_test_/ToasterGlobal.test.js">
+    <testCase name="ToasterGlobal displays a success toast" duration="4"/>
+    <testCase name="ToasterGlobal displays an error toast" duration="1"/>
+  </file>
+  <file path="/home/alans.thomas/Commitee-Website/Develop_phase3-Committee-website/committee-website/ui/committeproject/src/Screens/committe/Home/SharedPage/_tests_/SharedPage.test.js">
+    <testCase name="Admin AdminFeed render AdminFeed" duration="41"/>
+  </file>
+  <file path="/home/alans.thomas/Commitee-Website/Develop_phase3-Committee-website/committee-website/ui/committeproject/src/Screens/Admin/GroupStandings/__tests__/Groupstandings.test.js">
+    <testCase name="Admin Groupstandingtable render Groupstandingtable" duration="348"/>
+  </file>
+</testExecutions>

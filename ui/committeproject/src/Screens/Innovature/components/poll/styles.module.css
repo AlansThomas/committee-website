@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+.pollBody {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  min-height: 98%;
+  flex-direction: column;
+  gap: 30px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  /* overflow: scroll; */
+
+  overflow-y: scroll;
+  width: 100%;
+
+
+}
+
+.pollArea {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.pollAreaselection {
+  color: #fff;
+  background: #6665ee;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 15px;
+  padding: 25px;
+  /* max-width: 380px; */
+  width: 35vw;
+  word-wrap: break-word;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper header {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.label {
+  display: block;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 8px 15px;
+  border: 2px solid #e6e6e6;
+  transition: all 0.2s ease;
+}
+
+.label:hover {
+  border-color: #ddd;
+}
+
+.selected {
+  border-color: #6665ee !important;
+}
+
+.label .row {
+  display: flex;
+  pointer-events: none;
+  justify-content: space-between;
+}
+
+.label .row .column {
+  display: flex;
+  align-items: center;
+}
+
+.label .row .circle {
+  height: 19px;
+  width: 19px;
+  display: block;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  margin-right: 10px;
+  position: relative;
+}
+
+.selected .row .circle {
+  border-color: #6665ee;
+}
+
+.label .row .circle::after {
+  content: "";
+  height: 11px;
+  width: 11px;
+  background: #6665ee;
+  border-radius: inherit;
+  position: absolute;
+  left: 2px;
+  top: 2px;
+  display: none;
+}
+
+.label:hover .row .circle::after {
+  display: block;
+  background: #e6e6e6;
+}
+
+.selected .row .circle::after {
+  display: block;
+  background: #6665ee !important;
+  border-radius: 10px;
+}
+
+.label .row span {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.label .row .percent {
+  display: none;
+}
+
+.label .progress {
+  height: 7px;
+  width: 100%;
+  position: relative;
+  background: #f0f0f0;
+  margin: 8px 0 3px 0;
+  border-radius: 30px;
+  display: none;
+  pointer-events: none;
+}
+
+.label .progress:after {
+  position: absolute;
+}
+
+.btn3 {
+  /* margin-left: 450px;
+  border-radius: 5px;
+  width: 15%;
+  background-color: #060660;
+  color: white; */
+
+  width: 42px;
+  /* background-color: #0f0ffc; */
+  /* background: linear-gradient(to right, rgb(48 127 215) 50%,rgb(46 216 255) 90%);; */
+  background-color: #060660;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  height: 42px;
+
+  box-shadow: 0px 5px 10px rgb(0 0 0 / 42%);
+
+}
+
+.wrapperdiv {
+  display: flex;
+  flex-direction: column;
+  min-width: 700px;
+}
+
+.row {
+  display: flex;
+  height: fit-content;
+  gap: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  text-align: left;
+  align-items: self-start;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.changecolor {
+  background-color: rgb(222, 255, 244);
+}
+
+.btn3div {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.pollBodyDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 100px;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0.7;
+  }
+}
+
+
+.imageLogosList {
+  position: relative;
+  top: 50%;
+  left: 0%;
+  opacity: 0.4;
+  animation-name: fade-in;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+  animation-iteration-count: 5;
+}

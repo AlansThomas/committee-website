@@ -1,0 +1,29 @@
+.sumitbtns{
+    background-image: linear-gradient(to right, #77A1D3 0%,#173F5F 100%, #79CBCA 51%);
+    margin-top: 1%;
+    margin-left: 65%;
+    padding-left: 28px;
+    padding-right: 28px;
+    text-align: center;
+    text-transform: none;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: rgb(252, 248, 248);
+    box-shadow: 0 0 20px #eee;
+    border-radius: 9px;
+
+}
+.sumitbtns:hover{
+    background-position: right center;
+   
+    color: #fff;
+    text-decoration: none;
+}
+.texttype{
+    background-image: linear-gradient(to right, #77A1D3 0%,#173F5F 100%, #79CBCA 51%);
+    height: 56px;
+    border-radius: 10px;  
+    width: 100%;
+}
+
+

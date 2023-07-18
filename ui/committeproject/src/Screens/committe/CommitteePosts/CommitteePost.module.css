@@ -1,0 +1,16 @@
+.MyPosts {
+    width: 39.5vw;
+    margin-top: -6px;
+}
+
+.MyPosts p {
+    /* display: grid; */
+}
+
+@media only screen and (max-width: 1180px) {
+
+    .MyPosts {
+        width: 100%;
+        margin-top:0vh;
+    }
+}

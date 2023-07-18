@@ -1,0 +1,54 @@
+.eventhistorycard {
+    width: 100%;
+
+    background-color: rgb(255, 255, 255);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 34px;
+    -webkit-box-shadow: 0px 0px 11px -3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 11px -3px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 11px -3px rgba(0, 0, 0, 0.75);
+    margin-left: -42px;
+
+}
+
+.accordionHover:hover {
+    background-color: #F4F6F8;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.EentHistoryPageLoding {
+    margin-left: 30%;
+    margin-top: 6%;
+    margin-bottom: 6%;
+    display: inline-block;
+    animation-name: fade-in;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-iteration-count: 5;
+}
+
+.spinner {
+    width: 40px;
+    height: 40px;
+    border: 4px solid rgb(155, 209, 242);
+    border-top-color: #f3f3f3;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}

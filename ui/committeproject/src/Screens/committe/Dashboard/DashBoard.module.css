@@ -1,0 +1,7 @@
+.homeContainer{
+    display: flex;
+    width: 80%;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+}

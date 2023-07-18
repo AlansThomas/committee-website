@@ -1,0 +1,122 @@
+.sideNavBar {
+    width: 15vw;
+    transition: width 0.3s ease-in-out;
+    height: 112vh;
+    background: linear-gradient(to bottom, #e6e5f2, #173F5F);
+    padding-top: 60px;
+}
+
+
+
+.sideNavItem1 {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: #000000;
+    text-decoration: none;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.sideNavItem1:hover {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: #000000;
+    text-decoration: none;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.sideNavItemActive {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #000000;
+    text-decoration: none;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.sideNavItemActive:hover {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #060505;
+    text-decoration: none;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+
+
+/* normal */
+.sideNavItem {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #cccccc1b;
+    text-decoration: none;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.sideNavItem:hover {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #bbbbbb8b;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.linkTextsbar {
+    padding-left: 16px;
+}
+
+/* .sideNavBar a:hover {
+    background-color: #bbbbbb36;
+    color: #ffffff;
+    } */
+
+.Menubtn {
+    align-self: center;
+    align-self: flex-start;
+    justify-self: flex-end;
+    color: #000000;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding-left: 200px;
+}
+
+@media only screen and (max-width: 900px) {
+    .sideNavBar {
+        width: 7vw;
+        transition: width 0.3s ease-in-out;
+        height: 100vh;
+        background-color: #f9fafb;
+        padding-top: 28px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .sideNavBar {
+        width: 13vw;
+        transition: width 0.3s ease-in-out;
+        height: 100vh;
+        background-color: #f9fafb;
+        padding-top: 28px;
+    }
+}

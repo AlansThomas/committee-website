@@ -1,0 +1,7 @@
+.swal2-container {
+    z-index: 9999 !important;
+  }
+  .react-confirm-alert-overlay{
+    z-index: 1600 !important; 
+    background: rgb(48 48 48 / 90%) !important;
+  }

@@ -1,0 +1,11 @@
+#mulAnswer1{
+    background-color:'red' !important;
+  }
+  #tableHere{
+    width: 100%;
+  }
+  #buttonHere{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }

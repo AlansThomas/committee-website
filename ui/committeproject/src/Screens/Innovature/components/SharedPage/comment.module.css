@@ -1,0 +1,31 @@
+.main{
+    display: grid;
+    border: 1px solid lightgray;
+    margin-inline: 11px;
+    margin-top: 10px;
+  }
+  .avatar{
+    width: 80%;
+    margin-bottom: -8px;
+  }
+  .scroll{
+    height: 100%;
+    width: 100%;
+  }
+  .comment{
+    margin-left: 10%;
+    margin-right: 4%;
+    overflow-wrap: anywhere;
+  word-break: break-word;
+
+    font-size: 0.9rem;
+    color: rgb(49, 49, 49);
+    padding: 12px;
+  }
+  .sendComment{
+    display: flex;
+    /* grid-template-columns: 95% 0%; */
+    flex-direction: row;
+    align-items: baseline;
+  }
+ 

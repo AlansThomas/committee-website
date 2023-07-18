@@ -1,0 +1,116 @@
+
+::selection{
+  color: #fff;
+  background: #6665ee;
+}
+.wrapper{
+  background: #fff;
+  border-radius: 15px;
+  padding: 25px;
+  max-width: 100%;
+  width: 100%;
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+}
+.wrapper header{
+  font-size: 22px;
+  font-weight: 600;
+}
+.wrapper .poll-area{
+  margin: 20px 0 15px 0;
+}
+.poll-area{
+  width:340px;
+}
+.poll-area label{
+  display: block;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 8px 15px;
+  border: 2px solid #e6e6e6;
+  transition: all 0.2s ease;
+}
+.poll-area label:hover{
+  border-color: #ddd;
+}
+label.selected{
+  border-color: #6665ee!important;
+}
+label .row{
+  display: flex;
+  pointer-events: none;
+  justify-content: space-between;
+}
+label .row .column{
+  display: flex;
+  align-items: center;
+}
+label .row .circle{
+  height: 19px;
+  width: 19px;
+  display: block;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  margin-right: 10px;
+  position: relative;
+}
+label.selected .row .circle{
+  border-color: #6665ee;
+}
+label .row .circle::after{
+  content: "";
+  height: 11px;
+  width: 11px;
+  background: #6665ee;
+  border-radius: inherit;
+  position: absolute;
+  left: 2px;
+  top: 2px;
+  display: none;
+}
+.poll-area label:hover .row .circle::after{
+  display: block;
+  background: #e6e6e6;
+}
+label.selected .row .circle::after{
+  display: block;
+  background: #6665ee!important;
+}
+label .row span{
+  font-size: 16px;
+  font-weight: 500;
+}
+label .row .percent{
+  display: none;
+}
+
+.progress-bar {
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  height: 20px;
+  width: 100%;
+}
+
+.progress {
+  background-color: #4CAF50;
+  height: 100%;
+  
+  border-radius: 5px;
+  
+  transition: width 2s ease-in-out;
+
+  animation: progress-animation 1s ease-in-out forwards;
+
+}
+
+.progress.animate {
+  animation: progress-animation 1s ease-in-out forwards;
+}
+
+@keyframes progress-animation {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100;
+  }
+}

@@ -1,0 +1,94 @@
+.sidenav {
+    width: 15vw;
+    transition: width 0.3s ease-in-out;
+    height: 115vh;
+    background: linear-gradient(to bottom, #e6e5f2, #4599cd);
+    padding-top: 60px;
+}
+
+.sidenavClosed {
+    composes: sidenav;
+    transition: width 0.3s ease-in-out;
+    width: 60px;
+}
+
+.sidenavClosed .sideitem,
+.sidenavClosed button {
+    color: white;
+    padding-left: 20px;
+
+
+}
+
+.sideitem {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: #000000;
+    text-decoration: none;
+    overflow: hidden;
+    margin-left: .1vw;
+    margin-right: .5vh;
+}
+
+.sideItemActive {
+    display: flex;
+    align-items: center;
+    padding: 8px 20px;
+    cursor: pointer;
+    color: #ffffff;
+    text-decoration: none;
+    overflow: hidden;
+    background-color: #000000;
+    border-radius: 5px;
+    margin-left: .1vw;
+    margin-right: .5vh;
+}
+
+.sideItemActive:hover {
+    color: white;
+
+}
+
+.linkText {
+    padding-left: 16px;
+}
+
+.sideitem:hover {
+    background-color: #00000012;
+    color: white;
+
+}
+
+.menuBtn {
+    align-self: center;
+    align-self: flex-start;
+    justify-self: flex-end;
+    color: #000000;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding-left: 200px;
+
+}
+
+@media only screen and (max-width: 900px) {
+    .sidenav {
+        width: 7vw;
+        transition: width 0.3s ease-in-out;
+        height: 100vh;
+        background-color: #f9fafb;
+        padding-top: 28px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .sidenav {
+        width: 13vw;
+        transition: width 0.3s ease-in-out;
+        height: 100vh;
+        background-color: #f9fafb;
+        padding-top: 28px;
+    }
+}

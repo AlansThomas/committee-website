@@ -1,0 +1,515 @@
+.feed {
+  align-content: center;
+  width: 100%;
+}
+
+.feedEvent {
+  align-content: center;
+  width: 44%;
+}
+
+.Graph {
+  margin-top: 10vh;
+}
+
+@media only screen and (max-width: 1029px) {
+  .feedEvent {
+    align-content: center;
+    width: 96%;
+  }
+}
+
+.feedWrapper {
+  padding: 5px;
+  max-height: 100%;
+  width: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.Img {
+  display: grid;
+  grid-template-columns: 0% 80.7% 0%;
+}
+
+.canvasImg {
+  border-radius: 11px !important;
+  min-width: 100%;
+
+  min-height: 20vh;
+  max-height: 20vh;
+
+  transition: transform 300ms;
+}
+
+.canvasImg:hover {
+  transform: scale(1.02);
+  background-color: #ffffff;
+}
+
+.mainFrame {
+  display: grid;
+  grid-template-columns: 49% 32% 21%;
+}
+
+
+
+@media only screen and (max-width: 1308px) {
+ 
+  .mainFrame {
+    display: grid;
+    grid-template-columns: 49% 32% 21%;
+  }
+
+  .feed {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1029px) {
+  .Img {
+    display: grid;
+    grid-template-columns: 0% 100% 0%;
+  }
+
+  .mainFrame {
+    display: grid;
+    grid-template-columns: 100% 0 0;
+  }
+
+  .feed {
+    width: 100%;
+  }
+
+  .rightNavParent {
+    display: none;
+  }
+
+  .rightNavChild {
+    display: none;
+  }
+
+  .rightNavChildofChild {
+    display: none;
+  }
+
+  .rightNav {
+    display: none;
+  }
+  
+  .topThree{
+    display: none;
+  }
+}
+
+.rightNavChild {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  position: sticky;
+  top: 0;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-right: 4px;
+  height: fit-content;
+}
+
+.rightNavChildofChild {
+  flex: 1 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  min-width: 95%;
+  height: fit-content;
+  width: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  scrollbar-width: none;
+  background-color: white;
+}
+
+.RecentPoll {
+  margin: 2%;
+  padding: 1%;
+  background-color: rgb(255, 255, 255);
+}
+
+.rightNavParent {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -270px;
+  margin-right: 12px;
+  min-height: 100vh;
+}
+
+.rightNav {
+  flex: 1 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  max-width: -10%;
+  min-width: 95%;
+  height: 100%;
+  min-height: 100vh;
+  width: 100%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  scrollbar-width: none;
+  background-color: white;
+  transition: transform 300ms;
+  box-shadow: 0px 10px 28px -5px rgba(102, 85, 235, 0.42);
+}
+
+.rightNav::-webkit-scrollbar {
+  display: none;
+}
+
+.topThree {
+  position: fixed;
+  margin-right: 5px;
+  margin-top: 20px;
+  width: 15vw;
+  border-radius: 12px;
+  background-color: white;
+  height: fit-content;
+  transition: transform 300ms;
+  z-index: 1200;
+  display: grid;
+  justify-content: center;
+  justify-items: start;
+}
+
+.topThreeGraph {
+  margin-left: -6px;
+  margin-top: 100px;
+  width: 100%;
+  border-radius: 12px;
+  background-color: white;
+  height: -moz-fit-content;
+  height: fit-content;
+  transition: transform 300ms;
+}
+
+.topThreeGroups {
+  text-align: center;
+  font-size: 20px;
+  line-height: 37px;
+  letter-spacing: 0.01em;
+  font-weight: 600;
+  font-style: normal;
+  color: black;
+}
+
+.topThreeRow:hover {
+  transform: scale(1.06);
+  transition: 0.5s;
+}
+
+@media only screen and (max-width: 1029px) {
+  .rightNavParent {
+    display: none;
+  }
+}
+
+.gallery {
+  display: flex;
+  width: 100%;
+  height: 260px;
+}
+
+.gallery img {
+  min-width: 0;
+  flex: 1 1 10px;
+  object-fit: cover;
+  opacity: 0.9;
+  transition: 0.5s;
+}
+
+.gallery img:hover {
+  flex: 1 1 340px;
+  opacity: 1;
+}
+
+@media only screen and (max-width: 1029px) {
+  .gallery {
+    display: flex;
+    width: 100%;
+    height: 180px;
+  }
+
+  .gallery img:hover {
+    flex: 1 1 240px;
+    opacity: 1;
+  }
+}
+
+.groupGraphColor {
+  -webkit-box-shadow: 0px 0px 11px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 11px -3px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 11px -3px rgba(0, 0, 0, 0.75);
+}
+
+.Chart {
+  margin-top: 0px;
+}
+
+.logo-holder {
+  background: none;
+  width: 35px;
+  height: 76px;
+  position: relative;
+  margin: 0%;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+.animatepoll {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.bg {
+  position: absolute;
+  top: 8px;
+  left: 2px;
+  right: 8px;
+  bottom: 8px;
+  background: url(http://boutique.flarework.com/wp-content/themes/boutique/img/logo_large.png) center 0px no-repeat;
+  background-size: contain;
+  -webkit-filter: drop-shadow(0px 6px 25px rgba(0, 0, 0, 0.5));
+  filter: drop-shadow(0px 6px 25px rgba(0, 0, 0, 0.5));
+}
+
+.bar {
+  margin: 4%;
+  position: relative;
+  height: 3px;
+  background: #d1d1d1;
+  width: 0%;
+  top: 0px;
+  left: 3px;
+
+  box-shadow: 0 0 3px rgba(192, 192, 192, 0.9);
+  animation: fill 4s infinite alternate, colors 5s infinite alternate;
+}
+
+.bar1 {
+  margin: 4%;
+  position: relative;
+  height: 3px;
+  background: #6a6a6a;
+  width: 0%;
+  top: 0px;
+  left: 3px;
+
+  box-shadow: 0 0 3px rgba(255, 0, 0, 0.9);
+  animation: fill-2 4s infinite alternate, colors 5s infinite alternate;
+}
+
+.bar2 {
+  margin: 4%;
+  position: relative;
+  height: 3px;
+  background: #6a6a6a;
+  width: 0%;
+  top: 0px;
+  left: 3px;
+
+  box-shadow: 0 0 3px rgba(0, 255, 242, 0.9);
+  animation: fill-1 5s infinite alternate, colors 5s infinite alternate;
+}
+
+.bar3 {
+  margin: 4%;
+  position: relative;
+  height: 3px;
+  background: #6a6a6a;
+  width: 0%;
+  top: 0px;
+  left: 3px;
+
+  box-shadow: 0 0 3px rgba(255, 68, 68, 0.9);
+  animation: fill-3 2s infinite alternate, colors 5s infinite alternate;
+}
+
+.bar4 {
+  margin: 4%;
+  position: relative;
+  height: 3px;
+  background: #6a6a6a;
+  width: 0%;
+  top: 0px;
+  left: 3px;
+
+  box-shadow: 0 0 3px rgba(192, 192, 192, 0.9);
+  animation: fill-4 3s infinite alternate, colors 5s infinite alternate;
+}
+
+.bar5 {
+  margin: 4%;
+  position: relative;
+  height: 3px;
+  background: #6a6a6a;
+  width: 0%;
+  top: 0px;
+  left: 3px;
+
+  box-shadow: 0 0 3px rgba(192, 192, 192, 0.9);
+  animation: fill-5 4s infinite alternate, colors 5s infinite alternate;
+}
+
+.bar6 {
+  margin: 4%;
+  position: relative;
+  height: 3px;
+  background: #6a6a6a;
+  width: 0%;
+  top: 0px;
+  left: 3px;
+
+  box-shadow: 0 0 3px rgba(192, 192, 192, 0.9);
+  animation: fill-6 3s infinite alternate, colors 5s infinite alternate;
+}
+
+@keyframes fill {
+  0% {
+    width: 0;
+  }
+
+  33% {
+    width: 30px;
+  }
+
+  66% {
+    width: 10px;
+  }
+
+  100% {
+    width: 75px;
+  }
+}
+
+@keyframes fill-1 {
+  0% {
+    width: 0;
+  }
+
+  33% {
+    width: 50px;
+  }
+
+  66% {
+    width: 20px;
+  }
+
+  100% {
+    width: 70px;
+  }
+}
+
+@keyframes fill-2 {
+  0% {
+    width: 0;
+  }
+
+  33% {
+    width: 90px;
+  }
+
+  66% {
+    width: 70px;
+  }
+
+  100% {
+    width: 56px;
+  }
+}
+
+@keyframes fill-3 {
+  0% {
+    width: 0;
+  }
+
+  33% {
+    width: 50px;
+  }
+
+  66% {
+    width: 24px;
+  }
+
+  100% {
+    width: 19px;
+  }
+}
+
+@keyframes fill-4 {
+  0% {
+    width: 0;
+  }
+
+  33% {
+    width: 98px;
+  }
+
+  66% {
+    width: 34px;
+  }
+
+  100% {
+    width: 99px;
+  }
+}
+
+@keyframes fill-5 {
+  0% {
+    width: 0;
+  }
+
+  33% {
+    width: 30px;
+  }
+
+  66% {
+    width: 10px;
+  }
+
+  100% {
+    width: 48px;
+  }
+}
+
+@keyframes fill-6 {
+  0% {
+    width: 0;
+  }
+
+  33% {
+    width: 48px;
+  }
+
+  66% {
+    width: 22px;
+  }
+
+  100% {
+    width: 80px;
+  }
+}
+
+@keyframes colors {
+  0% {
+    background-color: #5a5a5a;
+  }
+
+  50% {
+    background-color: #3a3;
+  }
+
+  100% {
+    background-color: #6a6a6a;
+  }
+}

@@ -1,0 +1,14 @@
+.accordionHover:hover {
+    background-color: #F4F6F8;
+}
+
+
+.EventMain:hover {
+    background-color: #f6f6f6;
+    color: black;
+
+}
+
+.EventMain {
+    background-color:rgb(155 209 242);
+}

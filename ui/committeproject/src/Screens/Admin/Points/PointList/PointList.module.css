@@ -1,0 +1,34 @@
+.accordionHover:hover {
+    background-color: #F4F6F8;
+}
+
+
+.EventMain:hover {
+    background-color: #f6f6f6;
+    color: black;
+
+}
+
+.EventMain {
+    background-color:rgb(155 209 242);
+}
+.btn_grad {
+    background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA 51%, #77A1D3 100%);
+    width: 150px;
+    padding-left: 28px;
+    padding-right: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+}
+
+.btn_grad:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
